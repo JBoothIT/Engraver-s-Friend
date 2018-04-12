@@ -14,7 +14,7 @@ namespace Engraver_s_Friend
     /*
      * Application Author: Jeremy Booth
      * The function of this application is to store and retrieve information pertaining to jobs typically 
-     * performed by a user in an engraving type profession. Sort of like a filing cabinet. 
+     * performed by a user in an engraving profession. Sort of like a filing cabinet. 
      * Upon completion this application will allow the user insert and retrieve information from a locally stored database
      * and display it to a user-friendly interface. This application will allow the user to create and import previously
      * created databases. In addition, this application will allow the import of MS Excel spreadsheets to populate a database. 
