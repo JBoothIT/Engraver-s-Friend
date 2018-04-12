@@ -147,7 +147,7 @@ namespace Engraver_s_Friend
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AboutBox1 f1 = new AboutBox1();
+            AboutBox f1 = new AboutBox();
             f1.ShowDialog();
         }
     }

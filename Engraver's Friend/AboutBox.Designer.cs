@@ -1,6 +1,6 @@
 ﻿namespace Engraver_s_Friend
 {
-    partial class AboutBox1
+    partial class AboutBox
     {
         /// <summary>
         /// Required designer variable.
@@ -151,7 +151,7 @@
             this.okButton.TabIndex = 24;
             this.okButton.Text = "&OK";
             // 
-            // AboutBox1
+            // AboutBox
             // 
             this.AcceptButton = this.okButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -162,12 +162,12 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "AboutBox1";
+            this.Name = "AboutBox";
             this.Padding = new System.Windows.Forms.Padding(12, 11, 12, 11);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "AboutBox1";
+            this.Text = "About";
             this.Load += new System.EventHandler(this.AboutBox1_Load);
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
