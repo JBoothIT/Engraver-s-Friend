@@ -197,9 +197,9 @@
             this.label2.Location = new System.Drawing.Point(21, 82);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 17);
+            this.label2.Size = new System.Drawing.Size(70, 17);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Type";
+            this.label2.Text = "Item Type";
             // 
             // label3
             // 
@@ -207,9 +207,9 @@
             this.label3.Location = new System.Drawing.Point(21, 137);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 17);
+            this.label3.Size = new System.Drawing.Size(126, 17);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Material";
+            this.label3.Text = "Engraving Material";
             // 
             // label4
             // 
@@ -403,9 +403,9 @@
             this.label12.Location = new System.Drawing.Point(8, 186);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(112, 17);
+            this.label12.Size = new System.Drawing.Size(101, 17);
             this.label12.TabIndex = 20;
-            this.label12.Text = "Box / Bag / Desk";
+            this.label12.Text = "Stock Location";
             // 
             // CNRBox
             // 
@@ -439,9 +439,9 @@
             this.label8.Location = new System.Drawing.Point(8, 80);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(43, 17);
+            this.label8.Size = new System.Drawing.Size(98, 17);
             this.label8.TabIndex = 15;
-            this.label8.Text = "Bevel";
+            this.label8.Text = "Does it bevel?";
             // 
             // label7
             // 
@@ -449,9 +449,9 @@
             this.label7.Location = new System.Drawing.Point(8, 133);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 17);
+            this.label7.Size = new System.Drawing.Size(99, 17);
             this.label7.TabIndex = 16;
-            this.label7.Text = "Corner";
+            this.label7.Text = "Corner Radius";
             // 
             // groupBox3
             // 
@@ -497,9 +497,9 @@
             this.label6.Location = new System.Drawing.Point(8, 31);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 17);
+            this.label6.Size = new System.Drawing.Size(98, 17);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Email";
+            this.label6.Text = "Email Address";
             // 
             // EmailBox
             // 
@@ -516,9 +516,9 @@
             this.label9.Location = new System.Drawing.Point(8, 85);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 17);
+            this.label9.Size = new System.Drawing.Size(103, 17);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Phone";
+            this.label9.Text = "Phone Number";
             // 
             // PhoneBox
             // 
@@ -700,7 +700,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(474, 462);
+            this.label13.Location = new System.Drawing.Point(508, 462);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 9, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(166, 17);
@@ -814,9 +814,9 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(6, 31);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(134, 17);
+            this.label14.Size = new System.Drawing.Size(95, 17);
             this.label14.TabIndex = 0;
-            this.label14.Text = "Price Per Engraving";
+            this.label14.Text = "Price Per Unit";
             // 
             // groupBox8
             // 
@@ -825,7 +825,6 @@
             this.groupBox8.Size = new System.Drawing.Size(271, 126);
             this.groupBox8.TabIndex = 1;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "groupBox8";
             // 
             // Main
             // 

@@ -109,8 +109,8 @@ namespace Engraver_s_Friend
 
         private void AboutBox1_Load(object sender, EventArgs e)
         {
-            labelCompanyName.Text = "Bell Company, Inc.";
-            textBoxDescription.Text = "Application for the purpose of storing and accessing engraving related job files." + "\r\n\r\n" + "Created to be user-friendly and work efficient.";
+            labelCompanyName.Text = "Company Name";
+            textBoxDescription.Text = "Information pertaining to the purpose of the application.";
         }
     }
 }

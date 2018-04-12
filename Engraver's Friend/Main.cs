@@ -13,6 +13,11 @@ namespace Engraver_s_Friend
 {
     /*
      * Application Author: Jeremy Booth
+     * The function of this application is to store and retrieve information pertaining to jobs typically 
+     * performed by a user in an engraving type profession. Sort of like a filing cabinet. 
+     * Upon completion this application will allow the user insert and retrieve information from a locally stored database
+     * and display it to a user-friendly interface. This application will allow the user to create and import previously
+     * created databases. In addition, this application will allow the import of MS Excel spreadsheets to populate a database. 
      */
     public partial class Main : Form
     {
@@ -47,7 +52,7 @@ namespace Engraver_s_Friend
             VersionBox.Text = "Version: " + Application.ProductVersion.ToString();
 
             //Setup for email placeholder
-            EmailInsBox.Text = "sample@bellcoinc.com";
+            EmailInsBox.Text = "sample@someEmail.com";
             EmailInsBox.ForeColor = Color.Gray;
         }
 
@@ -84,7 +89,7 @@ namespace Engraver_s_Friend
                 BevInsBox.Visible = true;
                 PhoneInsBox.Visible = true;
 
-                EmailInsBox.Text = "sample@bellcoinc.com";
+                EmailInsBox.Text = "sample@someEmail.com";
                 EmailInsBox.ForeColor = Color.Gray;
 
                 InsButton.Text = "SUBMIT";
@@ -117,7 +122,7 @@ namespace Engraver_s_Friend
         //Email Box: Onclick placeholder is erased
         private void EmailInsBox_Enter(object sender, EventArgs e)
         {
-            if (EmailInsBox.Text == "sample@bellcoinc.com")
+            if (EmailInsBox.Text == "sample@someEmail.com")
             {
                 EmailInsBox.Text = "";
                 EmailInsBox.ForeColor = Color.Black;
@@ -129,7 +134,7 @@ namespace Engraver_s_Friend
         {
             if (EmailInsBox.Text == "")
             {
-                EmailInsBox.Text = "sample@bellcoinc.com";
+                EmailInsBox.Text = "sample@someEmail.com";
                 EmailInsBox.ForeColor = Color.Gray;
             }
         }
